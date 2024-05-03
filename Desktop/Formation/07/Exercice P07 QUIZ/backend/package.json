@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynadOS/OC_P7_Quizz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynadOS/OC_P7_Quizz/issues"
+  },
+  "homepage": "https://github.com/ynadOS/OC_P7_Quizz#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3"
+  }
+}
