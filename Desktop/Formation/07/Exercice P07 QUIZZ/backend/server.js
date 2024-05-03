@@ -11,7 +11,7 @@ const app = require('./app')
 app.use(bodyParser.json())
 
 // Connexion à la base de données MongoDB
-mongoose.connect('mongodb+srv://champloo63:<motdepasse>@cluster0.m7cs0z6.mongodb.net/',
+mongoose.connect('mongodb+srv://champloo63:<password>@cluster0.m7cs0z6.mongodb.net/',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
